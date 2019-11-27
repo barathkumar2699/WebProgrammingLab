@@ -1,0 +1,9 @@
+body{background-color:green;}
+p{color:blue;}
+h3{color:white;}
+ul.a{list-style-type:square;}
+ul.b{list:style-type:circle;}
+ol.c{list-style-type:upper-roman;}
+ol.d{list-style-type:lower-alpha;}
+h1{text-align:center;}
+p.date{text-align:right;}

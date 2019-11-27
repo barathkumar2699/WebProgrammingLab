@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>
+My Registration
+</title>
+
+<script type="text/javascript">
+function check1()
+{
+	var u=document.getElementById("user1").value;
+	if(u.length<1)
+	{
+		window.alert("UserName Field Empty");
+	}
+	var re=new RegExp("^[0-9]");
+		if(re.test(u))
+		{
+		alert("Username Should Not Start With A Digit");
+		}
+}
+function check2()
+{
+	var u=document.getElementById("pass1").value;
+	if(u.length<1)
+	{
+		window.alert("Password Field Empty");
+	}
+	
+}
+function check3()
+{
+	var p=document.getElementById("pass1").value;
+	var cp=document.getElementById("pass2").value;
+	if(cp.length<1)
+	{
+		window.alert("Confirm Password Field Empty");
+	}
+	if(p!=cp)
+	{
+		alert("password mismatch");
+	}
+}
+
+</script>
+</head>
+
+<body>
+<form name="f1" action="response.html" target="Right frame">
+Username:
+<input type="text" id="user1" onblur="check1()"><br>
+Password:
+<input type="password" id="pass1" onblur="check2()"><br>
+Confirm Password:
+<input type="password" id="pass2" onblur="check3()"><br>
+<input type="submit" value="login">
+</form>
+</body>
+</html>

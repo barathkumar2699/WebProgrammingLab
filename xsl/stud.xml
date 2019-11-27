@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="studs.xsl" type="text/xsl" ?>
+<student>
+<address>
+<name>AAA</name>
+<place>Chennai</place>
+</address>
+<address>
+<name>BBB</name>
+<place>Mumbai</place>
+</address>
+<address>
+<name>CCC</name>
+<place>kolkata</place>
+</address>
+</student>
